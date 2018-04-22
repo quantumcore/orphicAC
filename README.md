@@ -9,5 +9,4 @@ Then Close it and start setup.py. It will detect and Install ALL modules that ar
 
 Then finally, You can compile it from py to exe and test it out.
 
-###### Warning :
-Use Fake Email Only, Compiled program can be Decompiled to reveal the Email and your Password.
+###### Warning; Use Fake Email only. Compiled Program can be Decompiled to reveal the Email and Password.
