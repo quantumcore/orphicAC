@@ -1,4 +1,4 @@
-#Setup Script for Orphic Virus Generator.
+#Setup Script for Orphic anti chrome.
 import time
 import imp
 import os
