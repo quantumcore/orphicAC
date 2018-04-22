@@ -8,5 +8,4 @@ After Downloading, Open orphicAC.py in your Text Editor and edit line 57, 58, 59
 Then Close it and start setup.py. It will detect and Install ALL modules that are required.
 
 Then finally, You can compile it from py to exe and test it out.
-If you wish to change the 'Compiled' Program name then edit line 86 too.
 ###### Warning; Use Fake Email only. Compiled Program can be Decompiled to reveal the Email and Password.
